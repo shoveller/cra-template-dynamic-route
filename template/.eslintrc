@@ -1,7 +1,7 @@
 {
   "settings": {
     "react": {
-        "version": "latest"
+      "version": "latest"
     }
   },
   "env": {
@@ -9,10 +9,9 @@
     "es6": true
   },
   "extends": [
-    "eslint:recommended",
     "plugin:react/recommended",
-    "plugin:@typescript-eslint/eslint-recommended",
-    "prettier",
+    "plugin:@typescript-eslint/recommended",
+    "prettier/@typescript-eslint",
     "plugin:prettier/recommended"
   ],
   "globals": {
@@ -30,6 +29,7 @@
   },
   "plugins": ["react", "@typescript-eslint", "prettier"],
   "rules": {
+    "@typescript-eslint/explicit-module-boundary-types": "off",
     "prettier/prettier": [
       "error",
       {
