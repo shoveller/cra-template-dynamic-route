@@ -17,9 +17,6 @@ function App() {
 						<li>
 							<Link to="/sub">To Sub Page</Link>
 						</li>
-						<li>
-							<Link to="/posts/1">To Dynamic Route</Link>
-						</li>
 					</ul>
 					<DynamicRoutes Loading={<Loading />} />
 					<p>
