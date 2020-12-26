@@ -1,7 +1,8 @@
-import React from 'react'
-import { DynamicRoutes } from './DynamicRoutes'
-import { BrowserRouter, Link } from 'react-router-dom'
 import './App.css'
+
+import { DynamicRoutes } from 'DynamicRoutes'
+import React from 'react'
+import { BrowserRouter, Link } from 'react-router-dom'
 
 const Loading = () => <div>Loading...</div>
 

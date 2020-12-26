@@ -20,6 +20,7 @@ const DynamicPage = (props: IDynamicRoutesProps) => {
       }
       if (/Loading chunk \d+ failed/.test(e.message)) {
         window.location.reload()
+
         return
       }
       throw e
